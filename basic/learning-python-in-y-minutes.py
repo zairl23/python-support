@@ -384,6 +384,25 @@ for i in range(4, 8):
   print i
 
 """
+loop with the index
+"""
+a = ["test1", "test2"]
+
+# can read the index
+for i in range(len(a)):
+        print(i, a[i])
+
+# can read the index
+for index,value in enumerate(a):
+        print(index, value)
+
+# output
+# (0, 'test1')
+# (1, 'test2')
+# (0, 'test1')
+# (1, 'test2')
+
+"""
 While loops go until a condition is no longer met.
 prints:
   0
